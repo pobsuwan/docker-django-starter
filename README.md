@@ -4,7 +4,8 @@
 * Django => 1.11
 * Postgres
 
-### Required
+### Prerequisites
+* Python 2.7 or 3.x,
 * docker
 * docker-compose
 
@@ -17,3 +18,6 @@ docker-compose up
 ```
 docker-compose run web `command`
 ```
+
+docker-compose run web python3 manage.py migrate
+docker-compose run web python3 manage.py createsuperuser
