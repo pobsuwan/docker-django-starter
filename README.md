@@ -1,15 +1,19 @@
-# Django with docker for development - Web
+# Development Django with Docker
+
+### Descriptions
+* Django => 1.11
+* Postgres
 
 ### Required
-docker 
-docker-compose
+* docker
+* docker-compose
 
-### How to run django web
+### How to start django
 ```
 docker-compose up
 ```
 
-### How to execute command to docker 
+### How to execute command to web container 
 ```
 docker-compose run web `command`
 ```
